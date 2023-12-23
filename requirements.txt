@@ -1,4 +1,4 @@
---find-links https://download.pytorch.org/whl/cu118
+--extra-index-url https://download.pytorch.org/whl/cu118
 torch==2.1.2+cu118
 langchain==0.0.352
 PyPDF2==3.0.1
