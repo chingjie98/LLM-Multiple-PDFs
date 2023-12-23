@@ -66,7 +66,6 @@ def handle_user_qns(user_qns):
 def main():
     
     load_dotenv()     #access the env file containing all the tokens and keys
-    HUGGINGFACEHUB_API_TOKEN = st.secrets["auth_token"]
     st.set_page_config(page_title="Ask PDFs")
 
     st.write(css, unsafe_allow_html=True)
