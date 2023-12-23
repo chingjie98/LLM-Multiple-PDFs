@@ -1,5 +1,6 @@
 --find-links https://download.pytorch.org/whl/cu118
+torch==2.1.2+cu118
 langchain==0.0.352
 PyPDF2==3.0.1
 streamlit==1.29.0
-torch==2.1.2+cu118
+
