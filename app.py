@@ -65,7 +65,7 @@ def handle_user_qns(user_qns):
 
 def main():
     
-    load_dotenv()     #access the env file containing all the tokens and keys
+    # load_dotenv()     #access the env file containing all the tokens and keys
     st.set_page_config(page_title="Ask PDFs")
 
     st.write(css, unsafe_allow_html=True)
